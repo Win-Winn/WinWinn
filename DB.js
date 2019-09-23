@@ -28,7 +28,7 @@ let userSchema = new mongoose.Schema({
     task: String,
     time: Boolean,
     categories: String,
-    price: Number,
+    price: String,
     isUrgent: Boolean,
     scheduledDate: Date,
     location: String,

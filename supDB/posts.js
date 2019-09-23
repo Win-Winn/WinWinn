@@ -4,7 +4,7 @@ const db =require("../DB")
 let temp = [{
   task: 'First Task',
   categories: 'some Categories',
-  price: 'some Price',
+  price: '3$',
   isUrgent: true,
   scheduledDate: new Date(),
   location:'Amman',
