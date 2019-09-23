@@ -1,11 +1,17 @@
 const db =require("../DB")
 
+
 let temp = [{
   task: 'First Task',
-  time:true,
+  categories: 'some Categories',
+  price: 'some Price',
+  isUrgent: true,
   scheduledDate: new Date(),
   location:'Amman',
   booking: false,
+  userRating: 4,
+  serveceProviderRating: 4.5,
+  serveceProvider: 'serveceProvider name'
 }]
 
 let creatFirstPost = (cb) => {

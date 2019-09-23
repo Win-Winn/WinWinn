@@ -6,6 +6,7 @@ let temp = [{
   password: 'somePassword',
   photo: 'someLink',
   age: '24',
+  rating: 4.5
 }]
 
 
